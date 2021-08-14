@@ -1,0 +1,43 @@
+name: todo
+description: A new Flutter application.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.22.0
+  sqflite: ^2.0.0+3
+  path_provider: ^2.0.2
+  fluttertoast: ^8.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+#   flutter_launcher_icons: ^0.8.1
+
+# flutter_icons:
+#   android: true
+#   ios: true
+#   image_path: "assets/images/logo.png"  
+
+# flutter pub get  
+# flutter pub run flutter_launcher_icons:main  
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+      - assets/images/
+
+  fonts:
+     - family: ExtraBold
+       fonts:
+         - asset: assets/fonts/K2D-ExtraBold.ttf
+     - family: SemiBold
+       fonts:
+         - asset: assets/fonts/K2D-SemiBold.ttf
